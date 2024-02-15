@@ -1,0 +1,53 @@
+/* General styles */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://media.cntraveler.com/photos/64ff64bbdddd942d63368d02/4:3/w_5248,h_3936,c_limit/Train_Belmond%20Andean%20Explorer,%20South%20America_AEP-EXT-01.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Table styles */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f2f2f2
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Actions column styles */
+
+td:last-child {
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Menu link styles */
+
+a:first-child {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
